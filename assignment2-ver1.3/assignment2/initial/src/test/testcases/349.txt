@@ -1,0 +1,11 @@
+
+        Function decimalToBinary(decimal_number)
+        {
+            If (decimal_number == 0) {
+                Return 0;
+            }
+            Else {
+                Return decimal_number % 2 + 10 * Call(decimalToBinary,[decimal_number / 2]);
+            }
+        }
+        

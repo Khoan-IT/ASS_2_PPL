@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo)[VarDecl(Id(a),[NumberLiteral(5.0)],NoneType),VarDecl(Id(b),NoneType)],[VarDecl(Id(i),NoneType,NumberLiteral(0.0)),While(BinaryOp(<,Id(i),NumberLiteral(5.0)),[Assign(ArrayAccess(Id(a),[Id(i)]),BinaryOp(+,Id(b),NumberLiteral(1.0))),Assign(Id(i),BinaryOp(+,Id(i),NumberLiteral(1.0))),If(BinaryOp(>,Id(i),NumberLiteral(3.0)),[Continue()])])])])

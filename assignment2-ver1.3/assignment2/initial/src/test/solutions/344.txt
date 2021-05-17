@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(len)[VarDecl(Id(str),NoneType)],[If(BinaryOp(==,Id(str),StringLiteral()),[Return(NumberLiteral(0.0))]),Return(BinaryOp(+,NumberLiteral(1.0),CallExpr(Id(len),[BinaryOp(+,Id(str),NumberLiteral(1.0))])))])])

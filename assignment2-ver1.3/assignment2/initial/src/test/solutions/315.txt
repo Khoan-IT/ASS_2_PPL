@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo)[],[VarDecl(Id(a),[NumberLiteral(4.0)],NoneType,ArrayLiteral(NumberLiteral(1.0),NumberLiteral(2.0),NumberLiteral(3.0),NumberLiteral(4.0))),VarDecl(Id(i),NumberType,NumberLiteral(0.0)),While(BinaryOp(<,Id(i),NumberLiteral(4.0)),[CallStmt(Id(println),[ArrayAccess(Id(a),[Id(i)])])])])])

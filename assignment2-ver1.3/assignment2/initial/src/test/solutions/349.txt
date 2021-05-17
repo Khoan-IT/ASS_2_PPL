@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(decimalToBinary)[VarDecl(Id(decimal_number),NoneType)],[If(BinaryOp(==,Id(decimal_number),NumberLiteral(0.0)),[Return(NumberLiteral(0.0))])Else([Return(BinaryOp(+,BinaryOp(%,Id(decimal_number),NumberLiteral(2.0)),BinaryOp(*,NumberLiteral(10.0),CallExpr(Id(decimalToBinary),[BinaryOp(/,Id(decimal_number),NumberLiteral(2.0))]))))])])])

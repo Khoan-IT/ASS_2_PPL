@@ -1,0 +1,6 @@
+
+        Function foo(){
+            Let a:JSON = {json:{name:"Khoan",class:15},age:20};
+            a{"json"}{"name"} = "Duc" +. "Khoan";
+        }
+        

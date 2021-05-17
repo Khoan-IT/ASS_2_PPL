@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(test)[VarDecl(Id(arr),[NumberLiteral(100.0)],NoneType),VarDecl(Id(n),NoneType)],[VarDecl(Id(res),NumberType),Assign(Id(res),ArrayAccess(Id(arr),[NumberLiteral(0.0)])),ForIn(Id(i),ArrayLiteral(NumberLiteral(0.0),Id(n)),[If(BinaryOp(>,ArrayAccess(Id(arr),[Id(i)]),Id(res)),[Assign(Id(res),ArrayAccess(Id(arr),[Id(i)]))])]),Return(Id(res))])])

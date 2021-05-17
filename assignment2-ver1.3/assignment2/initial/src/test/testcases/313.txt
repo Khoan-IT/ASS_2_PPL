@@ -1,0 +1,12 @@
+
+        Function foo(){
+            For i In [0,10]{
+                i = i+1;
+                Call(println,[i]);
+            }
+            For j In a{
+                j = j + 1;
+                Call(println,[j]);
+            }
+        }
+        

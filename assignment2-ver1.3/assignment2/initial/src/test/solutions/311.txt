@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo)[],[VarDecl(Id(a),JSONType,JSONLiteral((Key=Id(json),Value=JSONLiteral((Key=Id(name),Value=StringLiteral(Khoan)),(Key=Id(class),Value=NumberLiteral(15.0))),(Key=Id(age),Value=NumberLiteral(20.0))),Assign(JSONAccess(Id(a),[StringLiteral(json),StringLiteral(name)]),BinaryOp(+.,StringLiteral(Duc),StringLiteral(Khoan)))])])

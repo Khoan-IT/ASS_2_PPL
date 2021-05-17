@@ -1,0 +1,8 @@
+
+        Function main(){
+            Let x=10;
+            Let y = "string",temp;
+            Constant $a[1,2] = [];
+            Let z:JSON = {name:"Khoan",age:18};
+            temp = y+z{"name"};
+        }

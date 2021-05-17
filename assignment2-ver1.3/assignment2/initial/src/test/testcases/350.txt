@@ -1,0 +1,24 @@
+
+        Function partition (arr[], low,high)
+        {
+            Let pivot = arr[high];   
+            Let left = low;
+            Let right = high - 1;
+            While(True){
+                While((left <= right) && (arr[left] < pivot)){
+                    left = left +1; 
+                    }
+                While((right >= left) && (arr[right] > pivot)){
+                    right = right -1;
+                    }
+                If (left >= right){
+                     Break; 
+                }
+                Call(swap,[arr[left], arr[right]]); 
+                left = left +1; 
+                right = right-1; 
+            }
+            Call(swap,[arr[left], arr[right]]);
+            Return left;
+        }
+        

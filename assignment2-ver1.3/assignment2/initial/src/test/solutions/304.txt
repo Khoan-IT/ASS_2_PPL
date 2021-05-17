@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(fact)[VarDecl(Id(a),NoneType),VarDecl(Id(b),[NumberLiteral(1.0),NumberLiteral(2.0),NumberLiteral(3.0)],NoneType)],[VarDecl(Id(c),NoneType),Assign(Id(c),NumberLiteral(5.0)),CallStmt(Id(writeln),[ArrayAccess(Id(a),[Id(i)]),StringLiteral(lala),Id(b)])])])

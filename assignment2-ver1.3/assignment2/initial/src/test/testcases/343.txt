@@ -1,0 +1,8 @@
+
+        Function gcd(a,b){
+            If(b==0){
+                Return a;
+            }
+            Return Call(gcd,[b,a%b]);
+        }
+        

@@ -1,0 +1,7 @@
+
+        Function  main(){
+            Let a = {name:"Khoan",faculty : "KHMT"};
+            Let b;
+            b = (a{"name"} +. a{"faculty"}) + Call(foo,[1,2]);
+        }
+        

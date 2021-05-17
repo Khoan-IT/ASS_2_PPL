@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo)[],[VarDecl(Id(a),[NumberLiteral(4.0)],NoneType,ArrayLiteral(NumberLiteral(1.0),NumberLiteral(2.0),NumberLiteral(3.0),NumberLiteral(4.0))),VarDecl(Id(i),NumberType,NumberLiteral(4.0)),CallStmt(Id(println),[ArrayAccess(Id(a),[BinaryOp(-,Id(i),NumberLiteral(1.0))]),ArrayAccess(Id(a),[UnaryOp(-,NumberLiteral(1.0))])])])])

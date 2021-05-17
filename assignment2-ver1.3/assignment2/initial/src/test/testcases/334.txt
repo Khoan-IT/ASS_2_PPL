@@ -1,0 +1,11 @@
+
+        Function fact(a[1,2]){
+            Let name:String = "";
+            For i Of {name:"Khoan",age:18}{
+                Call(printLn,[i]);
+            }
+            While(name!=""){
+                name = Call(read,[]);
+            }
+        }
+        

@@ -1,0 +1,13 @@
+
+        Function foo(){
+            Let age:Number;
+            age = Call(read,[]);
+            If ((age>=10)&&(age<=19)){
+                Call(printLn,["Teenager"]);
+            }Elif (age<10){
+                Call(printLn,["Not Teenager"]);
+            }Else{
+                Call(printLn,["Invalid"]);
+            }   
+        }
+        

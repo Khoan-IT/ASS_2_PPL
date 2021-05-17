@@ -1,0 +1,8 @@
+
+        Function len(str){
+            If (str==""){
+                Return 0;
+            }
+            Return 1+Call(len,[str+1]);
+        }
+        

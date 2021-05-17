@@ -1,0 +1,7 @@
+
+        Let a,b,c;
+        Function main(a,b){
+            Constant $b:Number =20;
+            a{"hello"} =  c[20,2,2,2];
+        }
+        

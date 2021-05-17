@@ -1,0 +1,7 @@
+
+        Function foo(){
+            Let a[4] = [1,2,3,4];
+            Let i:Number = 4;
+            Call(println,[a[i-1],a[-1]]);
+        }
+        

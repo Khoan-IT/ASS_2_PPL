@@ -1,0 +1,10 @@
+
+        Function foo(){
+            For i Of {name:"Khoan",age:20}{
+                If (i =="name"){
+                    Return i;
+                }
+                Call(println,[i]);
+            }
+        }
+        

@@ -1,0 +1,1 @@
+Program([VarDecl(Id(a),BooleanType,BinaryOp(&&,BinaryOp(>,Id(x),NumberLiteral(0.0)),BinaryOp(<,Id(i),NumberLiteral(10.0))))])

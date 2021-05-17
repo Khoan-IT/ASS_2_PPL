@@ -1,0 +1,14 @@
+
+        Function test(){
+            Let a=0;
+            a = 3*3;
+            If(b!=True){
+                If(a>=0){
+                
+                }Elif(a!=0){
+                
+                }
+            }Else{
+            
+            }
+        }

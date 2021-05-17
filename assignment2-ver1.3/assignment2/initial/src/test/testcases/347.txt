@@ -1,0 +1,16 @@
+
+        Function findGCD(a,b){
+            Let max,min;
+            If(a>b){
+                max=a;
+                min=b;
+            }Else{
+                max=b;
+                min=a;
+            }
+            If(min==0){
+                Return max;
+            }
+            Return Call(findGCD,[min,max%min]);
+        }
+        

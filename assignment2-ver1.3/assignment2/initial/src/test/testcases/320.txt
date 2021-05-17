@@ -1,0 +1,7 @@
+
+        Function test_call(){
+            Call(foo, [2 + x + y, 4 / y]);
+            Call(goo, []);
+            Return 2+x;
+        }
+        

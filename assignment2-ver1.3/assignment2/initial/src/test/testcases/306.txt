@@ -1,0 +1,3 @@
+
+        Let a:JSON = {name : "Khoan",age : {age:20,class:[1,2]}};
+        

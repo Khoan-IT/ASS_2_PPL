@@ -1,0 +1,1 @@
+Program([VarDecl(Id(a),NoneType),VarDecl(Id(b),NoneType),VarDecl(Id(c),NoneType),FuncDecl(Id(main)[VarDecl(Id(a),NoneType),VarDecl(Id(b),NoneType)],[ConstDecl(Id($b),NumberType,NumberLiteral(20.0)),Assign(JSONAccess(Id(a),[StringLiteral(hello)]),ArrayAccess(Id(c),[NumberLiteral(20.0),NumberLiteral(2.0),NumberLiteral(2.0),NumberLiteral(2.0)]))])])

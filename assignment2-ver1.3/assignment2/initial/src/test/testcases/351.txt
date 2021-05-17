@@ -1,0 +1,16 @@
+
+        Function bubbleSort(arr,len){
+          Let i,j;
+        
+          For i In [0,len]{
+            For j In [len-1,i]{
+              If(arr[j] < arr[j-1]){
+                temp = arr[j];
+                arr[j] = arr[j-1];
+                arr[j-1] = temp;
+              }
+            }
+          }
+          Return arr;
+        }
+        

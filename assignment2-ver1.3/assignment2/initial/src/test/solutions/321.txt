@@ -1,0 +1,1 @@
+Program([VarDecl(Id(a),StringType,StringLiteral(Khoan)),VarDecl(Id(b),StringType,StringLiteral(Duc)),VarDecl(Id(c),NoneType,BinaryOp(+.,Id(a),Id(b))),VarDecl(Id(d),NoneType,BinaryOp(==.,Id(a),Id(b)))])

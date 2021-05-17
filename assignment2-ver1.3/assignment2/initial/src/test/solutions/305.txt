@@ -1,0 +1,1 @@
+Program([VarDecl(Id(a),[NumberLiteral(1.0),NumberLiteral(2.0)],JSONType,ArrayLiteral(JSONLiteral((Key=Id(name),Value=StringLiteral(Khoan)),(Key=Id(class),Value=NumberLiteral(15.0)),JSONLiteral((Key=Id(age),Value=NumberLiteral(20.0)),(Key=Id(num),Value=ArrayLiteral(NumberLiteral(1.0),NumberLiteral(2.0),NumberLiteral(3.0)))))])

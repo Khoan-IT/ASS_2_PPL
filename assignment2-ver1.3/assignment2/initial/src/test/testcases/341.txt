@@ -1,0 +1,12 @@
+
+        Function test(arr[100],n){
+            Let res:Number;
+            res = arr[0];
+            For i In [0,n]{
+                If(arr[i]>res){
+                    res = arr[i];
+                }
+            }
+            Return res;
+        }
+        

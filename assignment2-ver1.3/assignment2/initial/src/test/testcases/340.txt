@@ -1,0 +1,10 @@
+
+        Function tranposeOfMatrix(a[10,10],tranpose[10,10],r,c){
+            For i In [0,r]{
+                For j In [0,c]{
+                    tranpose[j,i] = a[i,j];
+                }
+            }
+            Return tranpose;
+        }
+        

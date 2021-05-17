@@ -1,0 +1,6 @@
+
+        Function fact(a,b[1,2,3]){
+            Let c;
+            c = 5;
+            Call(writeln,[a[i], "lala", b]);
+        }

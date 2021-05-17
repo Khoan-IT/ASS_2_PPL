@@ -1,0 +1,6 @@
+
+        Let a:String = "Khoan";
+        Let b:String = "Duc";
+        Let c = a +. b;
+        Let d = a==.b;
+        

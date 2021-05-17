@@ -1,0 +1,10 @@
+
+        Function foo(){
+            For i Of {name:"Khoan",age:20}{
+                Call(println,[i]);
+            }
+            For j Of a{
+                Call(println,[j]);
+            }
+        }
+        

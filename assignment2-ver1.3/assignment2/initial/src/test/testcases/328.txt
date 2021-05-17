@@ -1,0 +1,1 @@
+Let abc:Number =  1.e+12,    x___asdyz = -0.12E12;

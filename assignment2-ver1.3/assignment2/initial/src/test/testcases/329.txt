@@ -1,0 +1,7 @@
+
+        Let x:Number,y:Number;
+        Function main(x,a[3]){
+            Let i = 0;
+            a[3+Call(foo,[2])] = a[b[2,3]]+4;
+        }
+        

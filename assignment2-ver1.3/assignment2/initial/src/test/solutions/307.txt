@@ -1,0 +1,1 @@
+Program([VarDecl(Id(a),NoneType),VarDecl(Id(b),StringType,BinaryOp(+.,StringLiteral(Duc),StringLiteral(Khoan)))])

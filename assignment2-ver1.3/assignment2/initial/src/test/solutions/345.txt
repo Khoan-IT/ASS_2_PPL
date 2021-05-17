@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[],[VarDecl(Id(a),[NumberLiteral(4.0)],NoneType),CallStmt(Id(read),[Id(a)]),ForIn(Id(i),Id(a),[If(BinaryOp(!=,BinaryOp(%,Id(i),NumberLiteral(2.0)),NumberLiteral(0.0)),[CallStmt(Id(println),[StringLiteral(Element is a odd number)])])])])])

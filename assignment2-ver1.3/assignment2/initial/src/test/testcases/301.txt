@@ -1,0 +1,2 @@
+Let x = 1, y;
+        Constant $a[2]:JSON = 3, $b[4] = 4;

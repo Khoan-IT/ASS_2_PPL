@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo)[],[ForIn(Id(i),ArrayLiteral(NumberLiteral(0.0),NumberLiteral(10.0)),[Assign(Id(i),BinaryOp(+,Id(i),NumberLiteral(1.0))),CallStmt(Id(println),[Id(i)])]),ForIn(Id(j),Id(a),[Assign(Id(j),BinaryOp(+,Id(j),NumberLiteral(1.0))),CallStmt(Id(println),[Id(j)])])])])

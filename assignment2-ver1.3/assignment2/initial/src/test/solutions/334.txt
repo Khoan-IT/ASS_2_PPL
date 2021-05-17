@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(fact)[VarDecl(Id(a),[NumberLiteral(1.0),NumberLiteral(2.0)],NoneType)],[VarDecl(Id(name),StringType,StringLiteral()),ForOf(Id(i),JSONLiteral((Key=Id(name),Value=StringLiteral(Khoan)),(Key=Id(age),Value=NumberLiteral(18.0)),[CallStmt(Id(printLn),[Id(i)])]),While(BinaryOp(!=,Id(name),StringLiteral()),[Assign(Id(name),CallExpr(Id(read),[]))])])])

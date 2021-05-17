@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(foo)[],[ForOf(Id(i),JSONLiteral((Key=Id(name),Value=StringLiteral(Khoan)),(Key=Id(age),Value=NumberLiteral(20.0)),[CallStmt(Id(println),[Id(i)])]),ForOf(Id(j),Id(a),[CallStmt(Id(println),[Id(j)])])])])

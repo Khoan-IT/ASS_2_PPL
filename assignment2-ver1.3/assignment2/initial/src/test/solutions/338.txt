@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(fact)[],[Return(BinaryOp(&&,UnaryOp(!,JSONAccess(CallExpr(Id(foo),[BinaryOp(+,BinaryOp(*,ArrayAccess(Id(a),[NumberLiteral(2.0)]),ArrayAccess(Id(b),[NumberLiteral(1.0),NumberLiteral(2.0)])),NumberLiteral(9.0))]),[StringLiteral(hello),StringLiteral(name)])),BooleanLiteral(true)))])])
