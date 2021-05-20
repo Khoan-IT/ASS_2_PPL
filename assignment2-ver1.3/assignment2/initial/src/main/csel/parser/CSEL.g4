@@ -51,13 +51,14 @@ func_body: '{' func_body_stm* '}';
 func_body_stm: var_declare|stm;
 
 stm: assign_stm|if_stm|for_stm|while_stm|break_stm|continue_stm|call_stm|return_stm;
-assign_stm: (VAR_IDENTIFIERS|index_exp|key_exp) '=' exp ';';
+assign_stm: (VAR_IDENTIFIERS|idx_key_exp) '=' exp ';';
 
-index_exp:(VAR_IDENTIFIERS)  index_op ;
+idx_key_exp: idx_key_exp (index_op|key_op) | (VAR_IDENTIFIERS|func_call);
+//index_exp:(VAR_IDENTIFIERS|func_call)  index_op ;
 index_op: '[' index ']';
 index: exp ',' index|exp;
-
-key_exp: (VAR_IDENTIFIERS) key_op;
+//
+//key_exp: (VAR_IDENTIFIERS|func_call) key_op;
 key_op : ('{' exp '}')+;
 //change key_op: ('{' exp '}')|('{' exp '}') key_op;
 if_stm: IF '(' exp ')' func_body  stm_else_if* (ELSE func_body)?;

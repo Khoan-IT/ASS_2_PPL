@@ -1,0 +1,6 @@
+
+            Function fact(x,y){
+                Let x =1,y:Number = 10;
+                Let a[5,1] = [],b[1];
+            }
+        

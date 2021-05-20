@@ -1,0 +1,12 @@
+
+           Function main(){
+               Let sum=0;
+               Let a = {a_1:[1,2,3,4,5],a_2:[10,11,12]};
+               For i Of a{
+                   For j In i {
+                       sum = sum + j;
+                   }
+               }
+               Return sum;
+           }
+           

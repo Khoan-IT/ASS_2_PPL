@@ -1,0 +1,1 @@
+Program([ConstDecl(Id($dec_10),NoneType,NumberLiteral(10.0)),FuncDecl(Id(totalDigitsOfNumber)[VarDecl(Id(n),NoneType)],[VarDecl(Id(total),NoneType,NumberLiteral(0.0)),While(BinaryOp(>,Id(n),NumberLiteral(0.0)),[Assign(Id(total),BinaryOp(+,Id(total),BinaryOp(%,Id(n),Id($dec_10)))),Assign(Id(n),BinaryOp(/,Id(n),Id($dec_10)))]),Return(Id(total))])])

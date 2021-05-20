@@ -1,0 +1,6 @@
+
+        Function main(){
+            Let a="Le Duc Khoan";
+            Let b = 1.234e+1;
+        }
+        

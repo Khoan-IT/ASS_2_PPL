@@ -1,0 +1,5 @@
+
+        Function main(){
+            a["hello"[1]]=0;
+            }
+        

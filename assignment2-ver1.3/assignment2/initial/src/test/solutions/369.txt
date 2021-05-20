@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main_1)[VarDecl(Id(a),NoneType)],[Return()]),FuncDecl(Id(main_2)[VarDecl(Id(a),NoneType)],[Return()]),FuncDecl(Id(main)[],[CallStmt(Id(main_1),[NumberLiteral(2.0)])])])

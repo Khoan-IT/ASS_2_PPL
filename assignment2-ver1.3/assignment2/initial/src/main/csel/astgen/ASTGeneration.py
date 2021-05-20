@@ -52,8 +52,6 @@ class ASTGeneration(CSELVisitor):
                 typ = NumberType()
             elif type == 'Boolean':
                 typ = BooleanType()
-            elif type == 'Array':
-                typ = ArrayType()
             elif type == 'JSON':
                 typ = JSONType()
             elif type == 'String':
@@ -126,8 +124,6 @@ class ASTGeneration(CSELVisitor):
                 typ = NumberType()
             elif type == 'Boolean':
                 typ = BooleanType()
-            elif type == 'Array':
-                typ = ArrayType()
             elif type == 'JSON':
                 typ = JSONType()
             elif type == 'String':
@@ -216,19 +212,42 @@ class ASTGeneration(CSELVisitor):
         lhs = ''
         if ctx.VAR_IDENTIFIERS():
             lhs = Id(ctx.VAR_IDENTIFIERS().getText())
-        elif ctx.index_exp():
-            lhs = self.visit(ctx.index_exp())
-        elif ctx.key_exp():
-            lhs = self.visit(ctx.key_exp())
+        elif ctx.idx_key_exp():
+            lhs = self.visit(ctx.idx_key_exp())
+        # elif ctx.key_exp():
+        #     lhs = self.visit(ctx.key_exp())
         return Assign(lhs, rhs)
 
+    # Visit a parse tree produced by CSELParser#idx_key_exp.
+    def visitIdx_key_exp(self, ctx: CSELParser.Idx_key_expContext):
+
+        if ctx.getChildCount()==1:
+            if ctx.VAR_IDENTIFIERS():
+                return Id(ctx.VAR_IDENTIFIERS().getText())
+            elif ctx.func_call():
+                return self.visit(ctx.func_call())
+        else:
+            arr = self.visit(ctx.idx_key_exp())
+            if ctx.index_op():
+                idx = self.visit(ctx.index_op())
+                return ArrayAccess(arr, idx)
+            elif ctx.key_op():
+                idx = self.visit(ctx.key_op())
+                return JSONAccess(arr, idx)
+
+
+
     # Visit a parse tree produced by CSELParser#index_exp.
-    def visitIndex_exp(self, ctx: CSELParser.Index_expContext):
-        # arr: Expr
-        # idx: List[Expr]
-        arr = Id(ctx.VAR_IDENTIFIERS().getText())
-        idx = self.visit(ctx.index_op())
-        return ArrayAccess(arr, idx)
+    # def visitIndex_exp(self, ctx: CSELParser.Index_expContext):
+    #     # arr: Expr
+    #     # idx: List[Expr]
+    #     arr=''
+    #     if ctx.VAR_IDENTIFIERS():
+    #         arr = Id(ctx.VAR_IDENTIFIERS().getText())
+    #     elif ctx.func_call():
+    #         arr = self.visit(ctx.func_call())
+    #     idx = self.visit(ctx.index_op())
+    #     return ArrayAccess(arr, idx)
 
     # Visit a parse tree produced by CSELParser#index_op.
     def visitIndex_op(self, ctx: CSELParser.Index_opContext):
@@ -242,12 +261,16 @@ class ASTGeneration(CSELVisitor):
             return [self.visit(ctx.exp())] + self.visit(ctx.index())
 
     # Visit a parse tree produced by CSELParser#key_exp.
-    def visitKey_exp(self, ctx: CSELParser.Key_expContext):
-        #json: Expr
-        #idx: List[Expr]
-        json = Id(ctx.VAR_IDENTIFIERS().getText())
-        idx = self.visit(ctx.key_op())
-        return JSONAccess(json,idx)
+    # def visitKey_exp(self, ctx: CSELParser.Key_expContext):
+    #     #json: Expr
+    #     #idx: List[Expr]
+    #     json = ''
+    #     if ctx.VAR_IDENTIFIERS():
+    #         json = Id(ctx.VAR_IDENTIFIERS().getText())
+    #     elif ctx.func_call():
+    #         json = self.visit(ctx.func_call())
+    #     idx = self.visit(ctx.key_op())
+    #     return JSONAccess(json,idx)
 
     # Visit a parse tree produced by CSELParser#key_op.
     def visitKey_op(self, ctx: CSELParser.Key_opContext):

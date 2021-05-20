@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(gtc)[VarDecl(Id(n),NoneType)],[If(BinaryOp(||,BinaryOp(==,Id(n),NumberLiteral(0.0)),BinaryOp(==,Id(n),NumberLiteral(1.0))),[Return(NumberLiteral(1.0))]),Return(BinaryOp(*,Id(n),CallExpr(Id(gtc),[BinaryOp(-,Id(n),NumberLiteral(2.0))])))])])

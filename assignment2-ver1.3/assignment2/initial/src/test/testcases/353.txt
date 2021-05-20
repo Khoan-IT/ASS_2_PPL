@@ -1,0 +1,11 @@
+
+           Function fibonaci(n){
+               If(n<0){
+                   Return -1;
+               }Elif((n==0)||(n==1)){
+                   Return n;
+               }Else{
+                   Return Call(fibonaci,[n-1])+Call(fibonaci,[n-2]);
+               }
+           }
+           

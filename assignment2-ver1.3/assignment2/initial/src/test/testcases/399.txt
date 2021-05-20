@@ -1,0 +1,17 @@
+
+        Function main(){
+            If(a!=0){
+                If(a!=0){
+                }Elif(a!=0){
+                }Else{}   
+            }Elif(a!=0){
+                If(a!=0){
+                }Elif(a!=0){
+                }Else{}
+            }Else{
+                If(a!=0){
+                }Elif(a!=0){
+                }Else{}
+            }
+        }
+        

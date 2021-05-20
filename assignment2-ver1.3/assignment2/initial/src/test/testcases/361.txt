@@ -1,0 +1,15 @@
+
+        Function binarySearch(arr[$MAX],l,r,x)
+        {
+            If (r >= l) {
+                Let mid = l + (r - l) / 2;
+                If (arr[mid] == x){
+                    Return mid;
+                }
+                If (arr[mid] > x){
+                    Return Call(binarySearch,[arr, l, mid - 1, x]);
+                }
+                Return Call(binarySearch,[arr, mid + 1, r, x]);
+            }
+            Return -1;
+        }

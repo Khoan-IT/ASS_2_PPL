@@ -1,0 +1,5 @@
+
+            Function area(x,y){
+                Return x*y;
+            }
+        

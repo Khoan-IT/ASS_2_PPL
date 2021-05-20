@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[VarDecl(Id(a),NoneType),VarDecl(Id(b),NoneType)],[Break(),Continue(),Return()])])

@@ -1,0 +1,6 @@
+
+        Function main(a[1,2,"Khoan"],b,n){
+            Let a[1,2]:JSON =[{name:"Khoan",class:[{age:18},{faculty:"KHMT",arr:[1,2,3]}]},{}];
+            a[0]{"class"}[1]{"arr"}[0] = 10;
+        }
+        

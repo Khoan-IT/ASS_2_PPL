@@ -1,0 +1,6 @@
+
+        Let a = 10;
+        Function main(){
+            Call(foo,[a{"Khoan"}[12]{"name"}])[1]{"class"} = a{123}[1]{"Khoan"}; 
+        }
+        

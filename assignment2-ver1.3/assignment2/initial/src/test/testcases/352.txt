@@ -1,0 +1,8 @@
+
+        Function gtc(n){
+            If((n==0)||(n==1)){
+                Return 1;
+            }
+            Return n*Call(gtc,[n-2]);
+        }
+        

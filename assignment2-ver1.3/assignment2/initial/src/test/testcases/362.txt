@@ -1,0 +1,28 @@
+
+        Function jumpSearch(arr[$MAX],x,n)
+        {
+            Let step = Call(sqrt,[n]);
+            Let prev = 0;
+            While (arr[Call(min,[step, n])-1] < x)
+            {
+                prev = step;
+                step =step+ Call(sqrt,[n]);
+                If (prev >= n){
+                    Return -1;
+                    }
+            }
+         
+            While (arr[prev] < x)
+            {
+                prev = prev +1;
+         
+                If (prev == Call(min,[step, n])){
+                    Return -1;
+                    }
+            }
+            If (arr[prev] == x){
+                Return prev;
+                }
+         
+            Return -1;
+        }

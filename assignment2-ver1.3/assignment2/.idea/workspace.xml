@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b934e5e-363f-4479-9050-6a4bf608d657" name="Default Changelist" comment="" />
+    <list default="true" id="3b934e5e-363f-4479-9050-6a4bf608d657" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/src/main/csel/astgen/ASTGeneration.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial/src/main/csel/astgen/ASTGeneration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/src/main/csel/parser/CSEL.g4" beforeDir="false" afterPath="$PROJECT_DIR$/initial/src/main/csel/parser/CSEL.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/src/test/ASTGenSuite.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial/src/test/ASTGenSuite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/src/test/solutions/335.txt" beforeDir="false" afterPath="$PROJECT_DIR$/initial/src/test/solutions/335.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/src/test/testcases/335.txt" beforeDir="false" afterPath="$PROJECT_DIR$/initial/src/test/testcases/335.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/target/CSEL.interp" beforeDir="false" afterPath="$PROJECT_DIR$/initial/target/CSEL.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/target/CSELParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial/target/CSELParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial/target/CSELVisitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial/target/CSELVisitor.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -17,20 +31,22 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/initial/src/test/ParserSuite.py" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/initial/src/test/solutions/323.txt" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/initial/src/test/solutions/339.txt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/initial/src/test/LexerSuite.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/initial/src/main/csel/parser/CSEL.g4" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/initial/target/CSELLexer.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/initial/src/main/csel/astgen/ASTGeneration.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/initial/src/test/ASTGenSuite.py" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/initial/src/test/solutions/304.txt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/initial/src/main/csel/utils/AST.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/initial/src/test/solutions/327.txt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/initial/src/test/solutions/323.txt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/initial/src/test/solutions/339.txt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/initial/src/test/solutions/356.txt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/initial/target/CSELLexer.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/initial/src/test/solutions/304.txt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Reference/Assignment/ASS2/src/test/ASTGenSuite.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="JupyterTrust" id="4482dee1-d9d7-41d5-a688-1fc42a82c581" />
   <component name="ProjectId" id="1rG0XOONVQilgUyJHLaXxruw3zP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Assignment_1/assignment1/assignment1" />
   </component>
@@ -52,5 +69,17 @@
       <workItem from="1618587158804" duration="26000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

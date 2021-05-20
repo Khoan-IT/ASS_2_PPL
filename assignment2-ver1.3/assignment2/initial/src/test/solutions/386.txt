@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(fact)[VarDecl(Id(x),NoneType),VarDecl(Id(y),NoneType)],[VarDecl(Id(x),NoneType,NumberLiteral(1.0)),VarDecl(Id(y),NumberType,NumberLiteral(10.0)),VarDecl(Id(a),[NumberLiteral(5.0),NumberLiteral(1.0)],NoneType,ArrayLiteral()),VarDecl(Id(b),[NumberLiteral(1.0)],NoneType)])])

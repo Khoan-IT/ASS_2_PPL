@@ -1,0 +1,9 @@
+
+           Constant $a=10;
+            Function main(){
+               Let b:JSON = {name:"Khoan",list : [1,2,3,4,5]};
+               x = b{"list"};
+               x[0] = 20;
+               Return;
+            }
+           

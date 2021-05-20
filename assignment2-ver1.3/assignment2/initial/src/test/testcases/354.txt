@@ -1,0 +1,18 @@
+
+           Function string_reverse(str[]) {
+               Let i, j, len;
+               Let ch;
+
+               j = Call(string_length,[str]) - 1;
+               len=j;
+               i = 0;
+
+               While(i < j) {
+                   ch = str[j];
+                   str[j] = str[i];
+                   str[i] = ch;
+                   i=i+1;
+                   j = j-1;
+               }
+           }
+           

@@ -1,0 +1,8 @@
+
+            Function area(x,y){
+                If (y==0){
+                    a = !a;
+                }
+                Return x*y;
+            }
+        

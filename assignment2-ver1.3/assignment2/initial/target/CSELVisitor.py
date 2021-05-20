@@ -104,8 +104,8 @@ class CSELVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by CSELParser#index_exp.
-    def visitIndex_exp(self, ctx:CSELParser.Index_expContext):
+    # Visit a parse tree produced by CSELParser#idx_key_exp.
+    def visitIdx_key_exp(self, ctx:CSELParser.Idx_key_expContext):
         return self.visitChildren(ctx)
 
 
@@ -116,11 +116,6 @@ class CSELVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by CSELParser#index.
     def visitIndex(self, ctx:CSELParser.IndexContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by CSELParser#key_exp.
-    def visitKey_exp(self, ctx:CSELParser.Key_expContext):
         return self.visitChildren(ctx)
 
 

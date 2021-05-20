@@ -1,0 +1,7 @@
+
+        Function main(){
+            Constant $a = 10;
+            Let b[2] = [[],[2,2]];
+            b[$a] = {name:"Khoan"};
+        }
+        

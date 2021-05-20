@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(area)[VarDecl(Id(x),NoneType),VarDecl(Id(y),NoneType)],[If(BinaryOp(==,Id(y),NumberLiteral(0.0)),[Assign(Id(a),UnaryOp(!,Id(a)))]),Return(BinaryOp(*,Id(x),Id(y)))])])

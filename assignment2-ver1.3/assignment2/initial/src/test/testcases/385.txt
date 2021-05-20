@@ -1,0 +1,6 @@
+
+        Let x:Number,y:Number;
+        Function main(x,a[5]){
+            ##Let a = "Le Duc Khoan";##    
+        }
+        

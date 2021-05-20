@@ -1,0 +1,6 @@
+
+        Function main(){
+            Let x = Call(foo,[])+Call(boo,[i]);
+            Call(foo,[n]);
+            }
+        

@@ -1,0 +1,15 @@
+
+        Function test_json(arr[1000],n){
+            Let x = {
+                        name: "Khoan",
+                        age: 45,
+                        married: True,
+                        children: ["A", "B"],
+                        pets: [ "Dog","cat" ],
+                        cars: [
+                            {model: "Audi A1", mpg: 15.1},
+                            {model: "Lamborghini", mpg: 18.1}
+                        ]
+                        };
+        }
+        

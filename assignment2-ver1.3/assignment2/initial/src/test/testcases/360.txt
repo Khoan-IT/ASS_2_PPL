@@ -1,0 +1,20 @@
+
+        Function countSort(arr[100],n,exp){
+            Let output[100];
+            Let i,count[10] = arr[0];
+            For i In [1,100]{
+                count[(arr[i]/exp)%10] = count[(arr[i] / exp) % 10] + 1;
+            }
+            For i In [1,10]{
+                count[i] = count[i - 1] + count[i];
+            }
+            For i In [10,0] {
+                output[count[(arr[i] / exp)%10] - 1] = arr[i];
+                count[(arr[i] / exp) % 10] = count[(arr[i] / exp) % 10] - 1;
+            }
+
+            For i In [0,10]{
+                arr[i] = count[i];
+            }
+        }
+        

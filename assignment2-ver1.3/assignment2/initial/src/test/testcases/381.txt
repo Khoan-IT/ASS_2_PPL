@@ -1,0 +1,5 @@
+
+        Function main(){
+            Call(foo,[a+2]){"String"}{2}={};
+        }
+        

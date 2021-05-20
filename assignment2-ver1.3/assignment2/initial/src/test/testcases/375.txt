@@ -1,0 +1,3 @@
+
+        Let a:Number=0,b:String="Khoan",c:Boolean = True;
+        

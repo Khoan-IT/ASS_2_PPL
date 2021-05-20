@@ -1,0 +1,5 @@
+
+        Function main(){
+            Call(foo,[])[1]=2;
+        }
+        

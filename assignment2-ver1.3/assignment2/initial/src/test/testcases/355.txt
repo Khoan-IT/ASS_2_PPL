@@ -1,0 +1,11 @@
+
+           Constant $dec_10 = 10;
+           Function totalDigitsOfNumber(n) {
+               Let total = 0;
+               While (n > 0){
+                   total = total + n % $dec_10;
+                   n = n / $dec_10;
+               }
+               Return total;
+           }
+           

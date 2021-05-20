@@ -1,0 +1,28 @@
+
+           Constant $MAX = 1000;
+           Function shellSort(){
+               Let inner, outer;
+               Let valueToInsert;
+               Let interval = 1;
+               Let elements = $MAX;
+               Let i = 0;
+               While(interval <= (elements / 3)) {
+                   interval = interval * 3 + 1;
+               }
+               While(interval > 0) {
+                   For outer In [interval,elements-1] {
+                       valueToInsert = arr[outer];
+                       inner = outer;
+
+                       While((inner > (interval -1)) && (arr[inner - interval] >= valueToInsert)) {
+                           arr[inner] = arr[inner - interval];
+                           inner = inner - interval;
+                       }
+
+                       arr[inner] = valueToInsert;
+                   }
+                   interval = (interval -1) /3;
+                   i = i+1;
+               }
+           }
+           
